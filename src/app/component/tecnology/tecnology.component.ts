@@ -1,11 +1,15 @@
-import { Component } from '@angular/core';
+import { Component, signal } from '@angular/core';
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-tecnology',
-  imports: [],
+  imports: [CommonModule],
   templateUrl: './tecnology.component.html',
-  styleUrl: './tecnology.component.css'
+  styleUrls: ['./tecnology.component.css']
 })
+
+
 export class TecnologyComponent {
+  iconoSize = signal(70);
 
 }

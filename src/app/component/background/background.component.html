@@ -1,0 +1,12 @@
+<div class="timeline">
+    <div *ngFor="let step of steps(); let i = index" class="timeline-item" [class.even]="i % 2 === 0" [class.odd]="i % 2 !== 0">
+      <div class="timeline-content">
+        <h3>{{ step.title }}</h3>
+        <span class="duration">{{ step.duration }}</span>
+        <p>{{ step.description }}</p>
+        <ul>
+          <li *ngFor="let point of step.points">{{ point }}</li>
+        </ul>
+      </div>
+    </div>
+  </div>

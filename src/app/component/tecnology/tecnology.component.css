@@ -8,9 +8,9 @@
 }
 
 .tecnology{
-    width: 100%;
+    width: 90%;
     margin: 0; 
-    padding: 0;
+    padding: 18px;
     height: 100%;
     display: flex;
     justify-content: center;
