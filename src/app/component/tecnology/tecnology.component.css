@@ -1,0 +1,18 @@
+
+.tecnology-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    color: #DAC5A7;
+}
+
+.tecnology{
+    width: 100%;
+    margin: 0; 
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

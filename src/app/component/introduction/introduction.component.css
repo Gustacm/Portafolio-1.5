@@ -1,0 +1,39 @@
+
+.content{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.text{
+    width: 100%;
+    height: 100%;
+    color: #DAC5A7;
+    
+
+}
+.title{
+    font-family:"Merienda", serif;
+    font-weight: 500;
+    font-size: 4rem;
+
+}
+.description{
+    font-family:"Merienda", serif;
+    font-weight: 300;
+}
+
+
+
+
+
+.section-piture{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

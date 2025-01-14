@@ -1,0 +1,30 @@
+.tecnology-component{
+    width: 100%;
+    background-color: aqua;
+}
+.Master {
+background-color: #0E0E0E;
+width: 100%;
+height: 100vh;
+}
+
+
+.nav {
+    padding-top: 20px;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+.nav-component{
+    width: 65%;
+}
+
+.content{
+    padding: 40px;  
+
+}
+.content-component{
+    width: 65%;
+}
+
